@@ -5,7 +5,11 @@
   "repository": "git@github.com:kubev2v/forklift-console-plugin.git",
   "license": "Apache-2.0",
   "workspaces": [
-    "./packages/*"
+    "@kubev2v/common",
+    "@kubev2v/config",
+    "@kubev2v/forklift-console-plugin",
+    "@kubev2v/legacy",
+    "@kubev2v/webpack"
   ],
   "scripts": {
     "clean": "rm -rf dist && rm -rf coverage && npm run clean -ws",
